@@ -23,8 +23,8 @@
   <div class="wrap">
     <a class="brand" href="./"><img class="mark" src="assets/mark.svg" alt=""><span class="name">ケースノート</span><span class="sub">HRBPのための記録の型</span></a>
     <nav class="nav" aria-label="主なページ">
-      <a href="#templates">無料テンプレ</a>
-      <a href="hanrei/">判例と型の根拠</a>
+      <a href="#templates"><span class="full">無料テンプレ</span><span class="short">テンプレ</span></a>
+      <a href="hanrei/"><span class="full">判例と型の根拠</span><span class="short">判例</span></a>
       <a href="about.html">考え方</a>
     </nav>
   </div>
@@ -32,10 +32,12 @@
 
 <main>
 <section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">For HR Business Partners</div>
+    <h1>相談を受けた日の夜に、<br>記録を型に入れて帰る。</h1>
+  </div>
   <div class="wrap grid">
     <div>
-      <div class="eyebrow">For HR Business Partners</div>
-      <h1>相談を受けた日の夜に、<br>記録を型に入れて帰る。</h1>
       <p class="lead">現場マネジャーからの「ちょっと相談が」を、申告・未確認・確定事実の三つに分けて残す。面談を準備し、本人の言葉を残し、経緯報告書にまとめる。ケースノートは、その型です。</p>
       <div class="cta">
         <a class="btn primary" href="#templates">面談シートを無料で受け取る</a>
@@ -43,21 +45,23 @@
       </div>
       <p class="note fine">Word／PDF。登録不要。社内での複製は自由です。</p>
     </div>
-    <div class="sheet" aria-label="ケース記録の見本">
-      <div class="sheet-head"><b>ケース記録</b><span>見本 ／ 架空の事例</span></div>
-      <div class="input">
-        <div class="lbl">マネジャーからの報告（原文のまま）</div>
-        <q>Aさんが3日連続で無断欠勤した。連絡もない。チームの士気が下がっている。</q>
+    <div class="sheet-wrap">
+      <div class="sheet" role="figure" aria-label="ケース記録の見本">
+        <div class="sheet-head"><b>ケース記録</b><span>見本 ／ 架空の事例</span></div>
+        <div class="input">
+          <div class="lbl">マネジャーからの報告（原文のまま）</div>
+          <q>Aさんが3日連続で無断欠勤した。連絡もない。チームの士気が下がっている。</q>
+        </div>
+        <div class="cols">
+          <div class="c1"><b>申告（誰が言ったか）</b>
+            <ul><li>上司によれば、Aさんは3日間出勤していない</li><li>上司によれば、Aさんから連絡がない</li><li>上司の所感として、チームの士気が下がっている</li></ul></div>
+          <div class="c2"><b>未確認（次に確認すること）</b>
+            <ul><li>勤怠記録の実績</li><li>本人からの連絡の有無（メール・電話・チャット）</li><li>欠勤の届出手続</li><li>会社側からAさんへ連絡した履歴</li><li>本人の状況（体調・家庭）</li></ul></div>
+          <div class="c3"><b>確定事実（根拠つき）</b>
+            <p class="empty">まだなし。未確認の項目を確かめて、根拠資料を添えてここへ移します。</p></div>
+        </div>
+        <div class="sheet-foot">報告をそのまま事実にしない。それだけで、後の資料が楽になります。</div>
       </div>
-      <div class="cols">
-        <div class="c1"><b>申告（誰が言ったか）</b>
-          <ul><li>上司によれば、Aさんは3日間出勤していない</li><li>上司によれば、Aさんから連絡がない</li><li>上司の所感として、チームの士気が下がっている</li></ul></div>
-        <div class="c2"><b>未確認（次に確認すること）</b>
-          <ul><li>勤怠記録の実績</li><li>本人からの連絡の有無（メール・電話・チャット）</li><li>欠勤の届出手続</li><li>会社側からAさんへ連絡した履歴</li><li>本人の状況（体調・家庭）</li></ul></div>
-        <div class="c3"><b>確定事実（根拠つき）</b>
-          <p class="empty">まだなし。未確認の項目を確かめて、根拠資料を添えてここへ移します。</p></div>
-      </div>
-      <div class="sheet-foot">報告をそのまま事実にしない。それだけで、後の資料が楽になります。</div>
     </div>
   </div>
 </section>
@@ -65,32 +69,57 @@
 <section class="band alt" id="what">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="eyebrow">What it does</div><h2>三つの工程を、型にする</h2></div>
+      <div><div class="eyebrow">What it does</div><h2>三つの工程を、<br>型にする</h2></div>
       <p>HRBPの仕事のうち、相談を受けてから人事の判断に上げるまでの三つの工程を支えます。判断と、その先は、人がやります。</p>
     </div>
-    <div class="three">
-      <div><div class="k">01 ケース記録</div><h3>申告と事実を、分けて残す</h3><p>マネジャーの報告を貼ると、申告・未確認・確定事実の三列に分かれ、時系列に並びます。各行に「誰の入力か」「根拠資料」「確認済みか」が付きます。</p></div>
-      <div><div class="k">02 面談と指導記録</div><h3>本人の言葉を、そのまま残す</h3><p>一般的な質問リストから選んで面談シートを作り、面談後は「本人の説明・示した事情・合意した改善点・次回確認日」の型でメモを残します。</p></div>
-      <div><div class="k">03 まとめ</div><h3>経緯報告書を、十分で出す</h3><p>記録と面談メモを経緯報告書の目次に流し込み、WordとPDFで出します。改善して閉じる場合はクローズ記録を残します。</p></div>
+    <div class="flow" role="list" aria-label="三つの工程と、その先の人の判断">
+      <div class="step" role="listitem">
+        <div class="k"><span class="no">01</span>ケース記録</div>
+        <h3>申告と事実を、<br>分けて残す</h3>
+        <p>マネジャーの報告を貼ると、申告・未確認・確定事実の三列に分かれ、時系列に並びます。各行に「誰の入力か」「根拠資料」「確認済みか」が付きます。</p>
+      </div>
+      <div class="step" role="listitem">
+        <div class="k"><span class="no">02</span>面談と指導記録</div>
+        <h3>本人の言葉を、<br>そのまま残す</h3>
+        <p>一般的な質問リストから選んで面談シートを作り、面談後は「本人の説明・示した事情・合意した改善点・次回確認日」の型でメモを残します。</p>
+      </div>
+      <div class="step" role="listitem">
+        <div class="k"><span class="no">03</span>まとめ</div>
+        <h3>経緯報告書を、<br>十分で出す</h3>
+        <p>記録と面談メモを経緯報告書の目次に流し込み、WordとPDFで出します。改善して閉じる場合はクローズ記録を残します。</p>
+      </div>
+      <div class="out" role="listitem">
+        <div class="k"><span class="no">人</span>判断</div>
+        <h3>道具の外で、<br>人が決める</h3>
+        <p>処分や対応の判断は、人事の責任者と、必要なら専門家が行います。ケースノートはここに入りません。</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="band" id="outputs">
+<section class="band navy" id="outputs">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="eyebrow">What you get</div><h2>出てくるのは、この三つの文書</h2></div>
+      <div><div class="eyebrow">What you get</div><h2>出てくるのは、<br>この三つの文書</h2></div>
       <p>人事の方は「何が出てくるか」を見てから判断されると思います。先に、文書そのものを置きます。</p>
     </div>
     <div class="docs">
-      <div class="doc"><div class="thumb" aria-hidden="true"></div><div class="body"><h3>面談シート</h3><p>ケース情報、報告の三列整理、時系列、面談の準備、面談メモ、面談後の作業、一般的な質問例10本。A4で3ページ。</p><a class="state ready" href="templates/casenote_interview_sheet_v1.pdf">見本PDFを開く</a></div></div>
-      <div class="doc"><div class="thumb" aria-hidden="true"></div><div class="body"><h3>時系列表</h3><p>日付・出来事・情報源・確認済の4列。半年後に「あの件の経緯を出して」と言われたとき、ここから十分で出せます。</p><span class="state">面談シートに同梱</span></div></div>
-      <div class="doc"><div class="thumb" aria-hidden="true"></div><div class="body"><h3>経緯報告書</h3><p>相談から現在までの経緯を、申告と確定事実を分けたまま定型の目次に流し込んだ報告書。人事部長への説明に。</p><span class="state">見本を準備中（12月）</span></div></div>
+      <div class="fan" role="figure" aria-label="面談シートの実ページ（A4・3ページ）">
+        <img class="p3" src="assets/sheet_p3.png" alt="面談シート 3ページ目：面談後の作業と一般的な質問例" width="910" height="1287" loading="lazy">
+        <img class="p2" src="assets/sheet_p2.png" alt="面談シート 2ページ目：面談の準備と面談メモ" width="910" height="1287" loading="lazy">
+        <img class="p1" src="assets/sheet_p1.png" alt="面談シート 1ページ目：ケース情報、報告の三列整理、時系列" width="910" height="1287">
+        <div class="tag">面談シート v1 ／ 実物のページ</div>
+      </div>
+      <div class="doclist">
+        <div class="doc"><div class="no">一</div><div><h3>面談シート</h3><p>ケース情報、報告の三列整理、時系列、面談の準備、面談メモ、面談後の作業、一般的な質問例10本。A4で3ページ。</p><a class="state" href="templates/casenote_interview_sheet_v1.pdf">見本PDFを開く</a></div></div>
+        <div class="doc"><div class="no">二</div><div><h3>時系列表</h3><p>日付・出来事・情報源・確認済の4列。半年後に「あの件の経緯を出して」と言われたとき、ここから十分で出せます。</p><span class="state">面談シートに同梱</span></div></div>
+        <div class="doc"><div class="no">三</div><div><h3>経緯報告書</h3><p>相談から現在までの経緯を、申告と確定事実を分けたまま定型の目次に流し込んだ報告書。人事部長への説明に。</p><span class="state">見本を準備中（12月）</span></div></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="band alt" id="promise">
+<section class="band" id="promise">
   <div class="wrap">
     <div class="sec-head">
       <div><div class="eyebrow">Principles</div><h2>三つの約束</h2></div>
@@ -104,48 +133,56 @@
   </div>
 </section>
 
-<section class="band" id="templates">
+<section class="band alt" id="templates">
   <div class="wrap">
     <div class="sec-head">
       <div><div class="eyebrow">Free templates</div><h2>面談シートを、無料で</h2></div>
       <p>道具の公開に先立ち、型そのものを配ります。個人情報を書かずに使える設計で、対象者は「Aさん」のような役割名で記録します。登録は要りません。</p>
     </div>
     <div class="dl">
-      <div class="files">
-        <a class="file" href="templates/casenote_interview_sheet_v1.docx" download><span><span class="t">面談シート v1（Word）</span><br><span class="m">A4・3ページ・39KB。社内の様式に合わせて編集できます</span></span><span class="ext">DOCX</span></a>
-        <a class="file" href="templates/casenote_interview_sheet_v1.pdf"><span><span class="t">面談シート v1（PDF）</span><br><span class="m">印刷して手書きで使う場合に</span></span><span class="ext">PDF</span></a>
-        <p class="fine">今後、時系列表の単体版と経緯報告書の目次を順に追加します。追加のお知らせはXで行います。</p>
+      <div>
+      <div class="stack">
+        <img src="assets/sheet_p1.png" alt="面談シート v1 の1ページ目" width="910" height="1287" loading="lazy">
       </div>
-      <div class="toc"><b>面談シートの構成</b>
-        <ol><li>ケース情報（役割名で記録）</li><li>マネジャーからの報告の整理（三列）</li><li>時系列</li><li>面談の準備</li><li>面談メモ</li><li>面談後の作業</li><li>付録：一般的な質問例10本</li><li>対象外の注記</li></ol>
+      <p class="stack-cap">A4・3ページ。社内の様式に合わせて編集できます</p>
+      </div>
+      <div>
+        <div class="files">
+          <a class="file" href="templates/casenote_interview_sheet_v1.docx" download><span><span class="t">面談シート v1（Word）</span><br><span class="m">A4・3ページ・39KB。社内の様式に合わせて編集できます</span></span><span class="ext">DOCX</span></a>
+          <a class="file" href="templates/casenote_interview_sheet_v1.pdf"><span><span class="t">面談シート v1（PDF）</span><br><span class="m">印刷して手書きで使う場合に</span></span><span class="ext">PDF</span></a>
+        </div>
+        <div class="toc"><b>面談シートの構成</b>
+          <ol><li>ケース情報（役割名で記録）</li><li>マネジャーからの報告の整理（三列）</li><li>時系列</li><li>面談の準備</li><li>面談メモ</li><li>面談後の作業</li><li>付録：一般的な質問例10本</li><li>対象外の注記</li></ol>
+        </div>
+        <p class="fine" style="margin-top:20px">今後、時系列表の単体版と経緯報告書の目次を順に追加します。追加のお知らせはXで行います。</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="band alt" id="hanrei">
+<section class="band" id="hanrei">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="eyebrow">Why this format</div><h2>記録の型には、根拠がある</h2></div>
+      <div><div class="eyebrow">Why this format</div><h2>記録の型には、<br>根拠がある</h2></div>
       <p>なぜ本人の言葉をそのまま残すのか。なぜ規程を添付するのか。型の各項目には、裁判所が過去に見てきた点が背景にあります。判例は「型の根拠」として紹介し、個別の案件には当てはめません。</p>
     </div>
-    <div class="hanrei-list">
-      <div class="row"><div class="a">規程の添付欄</div><div class="b">就業規則が周知されていることが前提とされた判例。どの規程が社内で周知されているかを記録に残す理由</div><div class="s on">第1本 11月19日公開予定</div></div>
-      <div class="row"><div class="a">申告・確定事実・未確認の三列</div><div class="b">処分時に認識していなかった事由を後から加えることが認められなかった判例。何をいつ確認したかを時系列で残す理由</div><div class="s">準備中</div></div>
-      <div class="row"><div class="a">面談メモの「本人の説明」欄</div><div class="b">本人の説明を聞いて記録したことが手続きの点で見られてきた裁判例。本人の言葉を残す理由</div><div class="s">準備中</div></div>
-      <div class="row"><div class="a">「未確認：本人の状況」</div><div class="b">体調不良が疑われる欠勤への対応が問題とされた判例。本人の状況を確認する項目を未確認列に立てる理由</div><div class="s">準備中</div></div>
+    <div class="pairs">
+      <div class="pair"><div class="a">規程の添付欄<small>型の項目</small></div><div class="arrow" aria-hidden="true">→</div><div class="b">就業規則が周知されていることが前提とされた判例。どの規程が社内で周知されているかを記録に残す理由。<br><span class="s on">第1本 11月19日公開予定</span></div></div>
+      <div class="pair"><div class="a">申告・確定事実・未確認の三列<small>型の項目</small></div><div class="arrow" aria-hidden="true">→</div><div class="b">処分時に認識していなかった事由を後から加えることが認められなかった判例。何をいつ確認したかを時系列で残す理由。<br><span class="s">準備中</span></div></div>
+      <div class="pair"><div class="a">面談メモの「本人の説明」欄<small>型の項目</small></div><div class="arrow" aria-hidden="true">→</div><div class="b">本人の説明を聞いて記録したことが手続きの点で見られてきた裁判例。本人の言葉を残す理由。<br><span class="s">準備中</span></div></div>
+      <div class="pair"><div class="a">「未確認：本人の状況」<small>型の項目</small></div><div class="arrow" aria-hidden="true">→</div><div class="b">体調不良が疑われる欠勤への対応が問題とされた判例。本人の状況を確認する項目を未確認列に立てる理由。<br><span class="s">準備中</span></div></div>
     </div>
-    <p class="fine" style="margin-top:14px">各紹介は、裁判所と労働政策研究・研修機構の公開情報を原文で確認して書き、出典と確認日を付けます。<a href="hanrei/">紹介の方針を読む</a></p>
+    <p class="fine" style="margin-top:20px">各紹介は、裁判所と労働政策研究・研修機構の公開情報を原文で確認して書き、出典と確認日を付けます。<a href="hanrei/">紹介の方針を読む</a></p>
   </div>
 </section>
 
-<section class="band" id="launch">
+<section class="band navy" id="launch">
   <div class="wrap launch">
     <div>
       <div class="eyebrow">Release</div>
-      <p class="big">道具の公開は、2026年12月下旬を予定しています。</p>
+      <p class="big">道具の公開は、<span style="white-space:nowrap">2026年12月下旬</span>を予定しています。</p>
       <p>それまでは、無料の面談シートと、記録の作法についての短い発信を続けます。公開のお知らせはXで行います。</p>
-      <div class="x"><a class="btn" href="https://x.com/" id="xlink">X で公開を待つ</a><span class="fine">アカウントは準備中。開設後にリンクを差し替えます</span></div>
+      <div class="x"><span class="btn" id="xlink" aria-disabled="true" style="opacity:.55;cursor:default">X で公開を待つ</span><span class="fine">アカウントは準備中。開設後にリンクを差し替えます</span></div>
     </div>
     <div class="scope"><b>この型の対象外</b>
       <p>本人が対応を争う意向を示している、代理人や労働組合が介入している、労働審判・訴訟・あっせん・労働基準監督署への申告があるか予告されている。これらの場合は、この型の対象外です。弁護士にご相談ください。</p>
